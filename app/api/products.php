@@ -7,5 +7,5 @@ require_once __DIR__ .  "../controllers/ProductController.php";
 /* Check if user is logged in */
 Auth::checkToken();
 
-/* Delete a product */
-ProductController::deleteProduct();
+/* Get all products */
+ProductController::getProducts();
